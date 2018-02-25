@@ -1,0 +1,24 @@
+<h2 class='jumbotron text-center'>
+  {{title}} 
+</h2>
+ 
+
+    <app-form (form_e)='formSubmited($event)' (reset_e)='onReset($event)'></app-form>
+    
+    <hr>
+    
+    <app-progress></app-progress>
+    
+    <hr>
+    
+    <app-median [median_val_reset]='median_val_reset' ></app-median>
+    
+    <hr>
+     
+    <div class='container text-center'>
+    <p>developer name: Tapan Mahapatra </p>
+    </div>
+    
+    <a href="jasmine-test-runner.html"> </a>
+  
+ 
